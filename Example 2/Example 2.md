@@ -1,5 +1,7 @@
 # Example 2
 
+I had permission denied to run build/build.sh  
+Solved using this: ``RUN chmod +x build/build.sh``
 
 ## Build & Run
 ``docker build -t kuard .``

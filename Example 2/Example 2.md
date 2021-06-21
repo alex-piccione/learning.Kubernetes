@@ -7,7 +7,7 @@ Solved using this: ``RUN chmod +x build/build.sh``
 ``docker build -t kuard .``
 ``docker run --rm -p 8080:8080 kuard``
 
-Build (long) fails often trying to download stuff for Go : timeout or http conenction closed or errors. With a mobile hotspot connection it required like 10 attempts to be successfull!
+Build (long) fails often trying to download stuff for Go : timeout or http connection closed or errors. With a mobile hotspot connection it required like 10 attempts to be successfull!
 - 
 
 ## Tag & Push

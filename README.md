@@ -1,8 +1,11 @@
-# spikes.kubernetes
+# Learning Kubernetes
+
 Kubernetes study  
 Based on "Kubernetes Up & Runing" book  
-http://bit.ly/kubernetesUR_2e  
-https://github.com/kubernetes-up-and-running  
+<http://bit.ly/kubernetesUR_2e>  
+<https://github.com/kubernetes-up-and-running>  
+
+Youtube [Kubernetes in 4 hours](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana)
 
 and other resources.
 
@@ -62,13 +65,11 @@ MasterNode has this services to accomplish its tasks:
 
 # Exercises/Practicing
 ## Example 1
+
 Docker image with Node.js and Express
 
-## Example 2
-
+## Example 2, 3
 Well.. I don't remember.
 
-
-
-
-
+## Example 4, 5
+https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana

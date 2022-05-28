@@ -6,7 +6,6 @@ Based on "Kubernetes Up & Runing" book
 <https://github.com/kubernetes-up-and-running>  
 
 Youtube [Kubernetes in 4 hours](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana)
-
 and other resources.
 
 ## Pluralsight
@@ -49,7 +48,7 @@ Getting Started with Kubernetes
   It synchronizes read/writes to avoid database inconsistencies.
   Note easy to use.
 
-## Custer
+## Cluster
 Each Kubernetes Node should have a container runtime, kubelet and Kube Proxy that redirect communication to right Service.  
 It will preser services on the same node to avoid unnecessary delay.  
 

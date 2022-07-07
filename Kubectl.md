@@ -1,6 +1,5 @@
 # kubectl
 
-
 When I installed minikube and started it I got this message:
 "kubectl is now configured to use 'minikube' cluster and 'default' namespace by default"
 
@@ -21,6 +20,9 @@ That means if I want to interact with Google Cloud Platform I need to change tha
 
 ## Create Pod
 
+
+## Commands
+
 ``kubectl create deployment nginx-1 --image=nginx``
 ``kubectl get deployment``
 ``kubectl get pod``
@@ -33,3 +35,11 @@ That means if I want to interact with Google Cloud Platform I need to change tha
 ``kubectl apply -f <file>`` create and update components
 
 ``kubectl exec -it <pod name> -- bin/bash``
+
+``kubectl config view``
+
+List namespaces: ``kubectl get namespaces``
+
+What is the current namespace? ``kubectl config current-context  ``
+
+``kubectl config current-context``  

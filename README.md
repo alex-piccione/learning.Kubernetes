@@ -5,18 +5,16 @@ Based on "Kubernetes Up & Runing" book
 <http://bit.ly/kubernetesUR_2e>  
 <https://github.com/kubernetes-up-and-running>  
 
-Youtube [Kubernetes in 4 hours](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana)
-and other resources.
-
-## Pluralsight
-Getting started with Kubernetes (by Nigel Poulton):
+Youtube - [Kubernetes in 4 hours](https://www.youtube.com/watch?v=X48VuDVv0do&ab_channel=TechWorldwithNana)  
+  
+Pluralsight - Getting started with Kubernetes (by Nigel Poulton):
 https://app.pluralsight.com/course-player?courseId=3794d6de-7050-40ae-8e10-d245efeb7a0c
 
-## Youtube
-Kubernetes in 4 hours (by Nana Janashia):
-Getting Started with Kubernetes
 
 # What I learned
+
+- What are Pods, Services, Ingress, 
+- How to store secrets
 
 ## Components
 - Node 
@@ -31,8 +29,10 @@ Getting Started with Kubernetes
   It serves also as load balancer.
 - Ingress
   It's another component that exposes the URL ``<my-node>:<service-IP>`` to point over an external service as http://my=app.com  
+- Secrets
+- Volumes  
   
-[images/Kubernetes components 01.png]
+[1][images/Kubernetes components 01.png]
 
 ## ConfigMap & Secret
 - ConfigMap is external to the nodes and is used to store configuration data (stored in plain format).  

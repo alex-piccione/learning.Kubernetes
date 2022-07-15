@@ -2,16 +2,21 @@
 
 I connected to a local pc with Ubuntu installed trough SSH.  
 I installed Kubernets with ``apt install kubernetes``  
-Then I installed kubectl (It required snap, the Canonical package, but that's it).  
+
+Maybe it was better to install Kubectl, that will also install Kubernetes: [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-other-package-management)  
+
+Then check it with ``kubectl cluster-info``    
+
+I installed kubectl on Ubuntu 20.4 (It required snap, the Canonical package).  
 Docker is installed and has no images and no containers.  
 
-``kubetcl version`` shows that Kubernetes Client 1.24.1 is installed.   
+``kubectl version`` shows that Kubernetes Client 1.24.1 is installed.   
 Not the server?  
 
 Tried to run ``kubectl describe services`` and got:
 > The connection to the server localhost:8080 was refused - did you specify the right host or port?
 
-Tried to run ``kubetcl create deployment ...`` and got this error:
+Tried to run ``kubectl create deployment test-nginx-1 --image nginx`` and got this error:
 > ... tcp 127.0.0.1:8080: connect: connection refused
 
 This error is mentioned here: <https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/>

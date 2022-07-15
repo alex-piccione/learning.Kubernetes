@@ -20,11 +20,13 @@ That means if I want to interact with Google Cloud Platform I need to change tha
 
 ## Create Pod
 
+You don't create Pods. You crate deployment that manage pods through replicaset.
 
 ## Commands
 
 ``kubectl create deployment nginx-1 --image=nginx``
 ``kubectl get deployment``
+``kubectl delete deployment {deployment name}``
 ``kubectl get pod``
 ``kubecttl get replicaset``
 
@@ -42,4 +44,7 @@ List namespaces: ``kubectl get namespaces``
 
 What is the current namespace? ``kubectl config current-context  ``
 
-``kubectl config current-context``  
+``kubectl config current-context``  returns "minikube" after I installed it.
+
+
+``kubectl get componentstatuses``
